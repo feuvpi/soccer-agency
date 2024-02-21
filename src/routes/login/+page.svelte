@@ -17,7 +17,24 @@
 	<!-- Login Form -->
 	<div class="relative z-10 backdrop-blur-md bg-white/30 p-8 rounded-md shadow-lg">
 		<h1 class="text-xl font-bold mb-4 text-center">Login</h1>
-		<form action="#" method="POST">
+
+
+
+		<form action="#">
+			<div class="mb-4 text-lg">
+			  <input class="rounded-3xl border-none bg-yellow-400 bg-opacity-50 px-6 py-2 text-center text-inherit placeholder-slate-200 shadow-lg outline-none backdrop-blur-md" type="text" name="name" placeholder="id@email.com" />
+			</div>
+	
+			<div class="mb-4 text-lg">
+			  <input class="rounded-3xl border-none bg-yellow-400 bg-opacity-50 px-6 py-2 text-center text-inherit placeholder-slate-200 shadow-lg outline-none backdrop-blur-md" type="Password" name="name" placeholder="*********" />
+			</div>
+			<div class="mt-8 flex justify-center text-lg text-black">
+			  <button type="submit" class="rounded-3xl bg-yellow-400 bg-opacity-50 px-10 py-2 text-white shadow-xl backdrop-blur-md transition-colors duration-300 hover:bg-yellow-600">Login</button>
+			</div>
+		  </form>
+
+
+		<!-- <form action="#" method="POST">
 			<div class="mb-4">
 				<label class="block text-gray-700 font-bold mb-2" for="email">Email</label>
 				<input
@@ -113,6 +130,6 @@
 					<span>Continue with Google</span>
 				</button>
 			</div>
-		</form>
+		</form> -->
 	</div>
 </div>
