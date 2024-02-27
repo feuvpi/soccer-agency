@@ -26,7 +26,7 @@
 
 <div
 	class={style.container}
-	style="background-image: url('https://images.unsplash.com/photo-1561457909-cbbf7d732ee6?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); background-size: cover; background-color: rgba(255, 255, 255, 0.5);"
+	style="background-image: url('/cool-background.png'); background-size: cover; background-color: rgba(255, 255, 255, 0.5);"
 >
 	<div class="flex items-start">
 		<Overlay />

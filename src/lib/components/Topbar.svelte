@@ -18,8 +18,29 @@
 					</button>
 				</div>
 			</div>
+			<div class="flex bg-gray-50 p-2 rounded-md shadow-md">
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					class="h-5 w-5 text-gray-400"
+					viewBox="0 0 20 20"
+					fill="currentColor"
+				>
+					<path
+						fill-rule="evenodd"
+						d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+						clip-rule="evenodd"
+					/>
+				</svg>
+				<input
+					class="bg-gray-50 outline-none ml-1 block w-80"
+					type="text"
+					name=""
+					id=""
+					placeholder="Procurar..."
+				/>
+			</div>
 			<div class="flex items-center justify-end ml-5 p-1 relative w-full sm:mr-0 sm:right-auto">
-				<span class="block pr-5">
+				<!-- <span class="block pr-5">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						class="h-5 text-gray-600 w-5"
@@ -32,7 +53,7 @@
 							clip-rule="evenodd"
 						/>
 					</svg>
-				</span>
+				</span> -->
 				<span class="block pr-5">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +67,7 @@
 						/>
 					</svg>
 				</span>
-				<span class="block pr-5 relative">
+				<!-- <span class="block pr-5 relative">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						class="h-6 text-gray-600 w-6"
@@ -59,7 +80,7 @@
 							clip-rule="evenodd"
 						/>
 					</svg>
-				</span>
+				</span> -->
 				<span class="block relative">
 					<img
 						alt="profile"
